@@ -1,0 +1,180 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-color: #35a29f;
+  /* min-height: 5000px; */
+}
+
+nav {
+  background-color: #35a29f;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-active {
+  font-weight: bold;
+}
+
+#header-beranda {
+  background-image: url(assets/img/beranda/header-hotel.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h1-header-beranda {
+  color: #97feed;
+  padding-top: 7rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.p-header-beranda {
+  max-width: 35rem;
+  margin: auto;
+  padding-bottom: 18rem;
+}
+
+.text-welcome {
+  margin: auto;
+  text-align: center;
+  max-width: 35rem;
+}
+
+.texth1-welcome {
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-card {
+  width: 100%;
+}
+
+.card-hov {
+  margin-top: 5rem;
+  width: 20rem;
+  background-color: #97feed;
+}
+
+.card-hov:hover {
+  background-color: white;
+}
+
+.p-card {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+#sambutan {
+  background-color: #97feed;
+}
+
+.img-sambutan {
+  width: 70%;
+}
+
+.card-sambutan {
+  margin: 1rem;
+  padding: 0.7rem;
+}
+
+.row-card {
+  padding: 5rem;
+}
+
+.p-sambutan {
+  margin: auto;
+  max-width: 33rem;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* Tentang */
+
+#header-tentang {
+  background-image: url(assets/img/tentang/header-tentang.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h1-tentang {
+  text-align: center;
+  font-weight: bold;
+}
+
+.p-tentang {
+  max-width: 35rem;
+  text-align: center;
+  margin: auto;
+}
+
+.img-tentang {
+  width: 70%;
+  margin: 3rem;
+}
+
+#galeri {
+  background-color: #97feed;
+}
+
+.img-galeri {
+  width: 25%;
+  margin: 1rem;
+}
+
+.img-padding {
+  padding: 3rem;
+}
+
+/* Destinasi */
+.buttonSelengkapnya {
+  text-decoration: none;
+  background-color: #99999900;
+}
+
+.destinasiCard {
+  height: 550px;
+  margin: auto;
+}
+
+.textCard {
+  height: 100px;
+  margin: auto;
+  margin-bottom: 18px;
+}
+
+.imgCard {
+  height: 300px;
+  margin: auto;
+}
+
+.cardView {
+  margin: auto;
+}
+
+.cardView:hover {
+  margin: auto;
+  background-color: #35a29f;
+}
+
+#destinasi {
+  background-color: #97feed;
+  padding: 5rem;
+}
+
+/* Kontak */
+#kontak {
+  margin-top: 10rem;
+}
+
+.body-kontak {
+  background-color: #97feed;
+}
